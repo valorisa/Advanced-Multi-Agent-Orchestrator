@@ -86,7 +86,6 @@ python -m venv .venv
 ```bash
 python -m pip install --upgrade pip
 ```
-<<<<<<< HEAD
 
 ## Next steps
 
@@ -99,8 +98,6 @@ orchestrator-kata
 This command does not invoke any AI agent. It is a **pedagogical checkpoint** designed to redirect you toward the true purpose of this repository: understanding open-source governance, documentation, and maintainability.
 
 If you were expecting an executable orchestrator, this repository is not what you think. Read the mission above, and decide if you want to stay.
-=======
->>>>>>> 6776c7f24d490c316d508e9c1ebd40f3878c9078
 
 ## Usage
 

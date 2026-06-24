@@ -87,7 +87,6 @@ python -m venv .venv
 ```bash
 python -m pip install --upgrade pip
 ```
-<<<<<<< HEAD
 
 ## Prochaine étape
 
@@ -100,8 +99,6 @@ orchestrator-kata
 Cette commande n'invoque aucun agent IA. C'est un **point de contrôle pédagogique** conçu pour te rediriger vers le vrai sujet de ce dépôt : la gouvernance open-source, la documentation et la maintenabilité.
 
 Si tu t'attendais à un orchestrateur exécutable, ce dépôt n'est pas ce que tu crois. Lis la mission ci-dessus, et décide si tu restes.
-=======
->>>>>>> 6776c7f24d490c316d508e9c1ebd40f3878c9078
 
 ## Utilisation
 
