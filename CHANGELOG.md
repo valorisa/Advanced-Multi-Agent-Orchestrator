@@ -8,4 +8,3 @@
 - Bilingual documentation (EN/FR).
 - Markdown lint workflow (GitHub Actions).
 - MIT license, governance files, and Python project metadata.
-
