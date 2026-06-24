@@ -65,28 +65,28 @@ Il faut :
 
 ### Cloner le dépôt
 
-`ash
+```bash
 git clone https://github.com/valorisa/advanced-multi-agent-orchestrator.git
 cd advanced-multi-agent-orchestrator
-`
+```
 
 ### Créer un environnement virtuel
 
-`ash
+```bash
 python -m venv .venv
-`
+```
 
 ### Activer l'environnement dans PowerShell
 
-`powershell
+```powershell
 .\.venv\Scripts\Activate.ps1
-`
+```
 
 ### Installer les dépendances
 
-`ash
+```bash
 python -m pip install --upgrade pip
-`
+```
 
 ## Utilisation
 
@@ -112,15 +112,14 @@ et les workflows d'automatisation.
 
 ## Commandes Git et GitHub CLI
 
-`ash
+```bash
 git init
-gh auth login
-gh auth status
+gh auth status || gh auth login
 git add .
 git commit -m "chore: initial commit"
 git branch -M main
 gh repo create advanced-multi-agent-orchestrator --public --source=. --remote=origin --push
-`
+```
 
 ## Licence
 
