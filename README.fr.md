@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD013 -->
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
 [![Markdown lint](https://img.shields.io/badge/Markdown-lint%20friendly-brightgreen)](https://github.com/DavidAnson/markdownlint)
