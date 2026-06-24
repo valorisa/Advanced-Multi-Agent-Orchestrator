@@ -1,6 +1,6 @@
 [project]
 name = "advanced-multi-agent-orchestrator"
-version = "0.1.0"
+version = "0.1.1"
 description = "Starter project for a multi-agent AI orchestrator"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -11,7 +11,12 @@ authors = [
 keywords = ["multi-agent", "llm", "orchestration", "ai"]
 dependencies = []
 
+[project.scripts]
+orchestrator-kata = "advanced_multi_agent_orchestrator.__main__:main"
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,3 +1,15 @@
+Metadata-Version: 2.4
+Name: advanced-multi-agent-orchestrator
+Version: 0.1.1
+Summary: Starter project for a multi-agent AI orchestrator
+Author: valorisa
+License: MIT
+Keywords: multi-agent,llm,orchestration,ai
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
 [![Markdown lint](https://img.shields.io/badge/Markdown-lint%20friendly-brightgreen)](https://github.com/DavidAnson/markdownlint)

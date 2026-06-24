@@ -1,0 +1,2 @@
+[console_scripts]
+orchestrator-kata = advanced_multi_agent_orchestrator.__main__:main

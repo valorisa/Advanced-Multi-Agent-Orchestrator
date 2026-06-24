@@ -65,28 +65,40 @@ Il faut :
 
 ### Cloner le dépôt
 
-`ash
+```bash
 git clone https://github.com/valorisa/advanced-multi-agent-orchestrator.git
 cd advanced-multi-agent-orchestrator
-`
+```
 
 ### Créer un environnement virtuel
 
-`ash
+```bash
 python -m venv .venv
-`
+```
 
 ### Activer l'environnement dans PowerShell
 
-`powershell
+```powershell
 .\.venv\Scripts\Activate.ps1
-`
+```
 
 ### Installer les dépendances
 
-`ash
+```bash
 python -m pip install --upgrade pip
-`
+```
+
+## Prochaine étape
+
+Une fois l'installation terminée, exécute la commande suivante pour vérifier ton environnement et recevoir ta première mission :
+
+```bash
+orchestrator-kata
+```
+
+Cette commande n'invoque aucun agent IA. C'est un **point de contrôle pédagogique** conçu pour te rediriger vers le vrai sujet de ce dépôt : la gouvernance open-source, la documentation et la maintenabilité.
+
+Si tu t'attendais à un orchestrateur exécutable, ce dépôt n'est pas ce que tu crois. Lis la mission ci-dessus, et décide si tu restes.
 
 ## Utilisation
 
@@ -112,15 +124,14 @@ et les workflows d'automatisation.
 
 ## Commandes Git et GitHub CLI
 
-`ash
+```bash
 git init
-gh auth login
-gh auth status
+gh auth status || gh auth login
 git add .
 git commit -m "chore: initial commit"
 git branch -M main
 gh repo create advanced-multi-agent-orchestrator --public --source=. --remote=origin --push
-`
+```
 
 ## Licence
 
@@ -129,4 +140,3 @@ Ce projet est distribué sous licence MIT. Voir [LICENSE](LICENSE) pour les dét
 ## Version anglaise
 
 La version anglaise complète est disponible dans [README.md](README.md).
-
