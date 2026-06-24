@@ -128,4 +128,3 @@ Ce projet est distribué sous licence MIT. Voir [LICENSE](LICENSE) pour les dét
 ## Version anglaise
 
 La version anglaise complète est disponible dans [README.md](README.md).
-
