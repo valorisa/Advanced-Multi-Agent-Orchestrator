@@ -20,4 +20,8 @@
 - Initial release.
 - Bilingual documentation (EN/FR).
 - Markdown lint workflow (GitHub Actions).
+<<<<<<< HEAD
 - MIT license, governance files, and Python project metadata.
+=======
+- MIT license, governance files, and Python project metadata.
+>>>>>>> 6776c7f24d490c316d508e9c1ebd40f3878c9078

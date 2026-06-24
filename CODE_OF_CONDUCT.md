@@ -20,4 +20,3 @@ We want this project to remain respectful, inclusive, and helpful for everyone.
 ## Scope
 
 This code of conduct applies to all project spaces, including issues and pull requests.
-
