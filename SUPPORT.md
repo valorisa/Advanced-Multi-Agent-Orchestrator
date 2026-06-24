@@ -23,4 +23,3 @@ Please include:
 - What happened.
 - What you expected to happen.
 - Your environment (OS, Python version, etc.) if relevant.
-
