@@ -64,16 +64,16 @@ You need:
 
 ### Clone the repository
 
-`ash
+```bash
 git clone https://github.com/valorisa/advanced-multi-agent-orchestrator.git
 cd advanced-multi-agent-orchestrator
-`
+```
 
 ### Create a virtual environment
 
-`ash
+```bash
 python -m venv .venv
-`
+```
 
 ### Activate the environment in PowerShell
 
@@ -83,9 +83,9 @@ python -m venv .venv
 
 ### Install dependencies
 
-`ash
+```bash
 python -m pip install --upgrade pip
-`
+```
 
 ## Usage
 
@@ -110,15 +110,14 @@ This structure is useful for code assistance, research, documentation, and autom
 
 ## Git and GitHub CLI commands
 
-`ash
+```bash
 git init
-gh auth login
-gh auth status
+gh auth status || gh auth login
 git add .
 git commit -m "chore: initial commit"
 git branch -M main
 gh repo create advanced-multi-agent-orchestrator --public --source=. --remote=origin --push
-`
+```
 
 ## License
 
