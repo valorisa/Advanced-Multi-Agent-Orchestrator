@@ -21,4 +21,3 @@ Please include:
 - A suggested severity level if possible.
 
 We appreciate responsible disclosure and will review reports as quickly as possible.
-
