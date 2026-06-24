@@ -126,4 +126,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ## French version
 
 A complete French version is available in [README.fr.md](README.fr.md).
-
